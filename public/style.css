@@ -1,0 +1,21 @@
+/* Main CSS file */
+/* @media screen and (max-width:768px) { */
+ /* base styling */
+ /* Box Model */
+* {
+	box-sizing: border-box;
+}
+:root{
+    --white:#FFF;
+    --black:#000;
+    --font-stack: 'Arial,sans-serif'
+}
+html{
+	font-size: 12px;
+    font-family: var(--font-stack);
+}
+html, body {
+    height:100%;
+	margin:0;
+	padding:0;
+}
